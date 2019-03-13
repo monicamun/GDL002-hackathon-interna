@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    background: blue;
+}
+#menu-bar {
+    display: none;
+}
+header label {
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+header label:hover {
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+#menuIcon {
+    width: 30px;
+    height: 30px;
+}
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.menu li {
+    display: block;
+    padding: 15px 20ox;
+    color: #ffffff;
+    text-decoration: none;
+}
