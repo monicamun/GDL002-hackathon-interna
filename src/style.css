@@ -5,7 +5,8 @@ body {
 
 header {
     width: 100%;
-    background: blue;
+    text-align: center;
+    height: 50px;
 }
 #menu-bar {
     display: none;
@@ -35,4 +36,14 @@ header label:hover {
     padding: 15px 20ox;
     color: #ffffff;
     text-decoration: none;
+}
+
+.border {
+border: 1px;
+color: #000 solid;
+text-align: center;
+height: 50px;
+display: inline-block;
+width: 165px;
+
 }
