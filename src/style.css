@@ -35,11 +35,13 @@ header label:hover {
 .menu li:hover{
     background: rgba(0,0,0, 0.26);
 }
-.menu li a{
+.menu li button{
     display: block;
     padding: 15px 20px;
-    color: #B90CBC;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    border: none;
+    background: none;
 }
 @media (max-width:768px) {
     header label{
