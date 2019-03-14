@@ -8,56 +8,48 @@
     <title>E-movies</title>
     <link rel="stylesheet" href="style.css" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
   </head>
   <body>
 
         <!-- add the menu bar -->
         <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col">E-movie Finder :D</div>
-                </div>
+                <input type="checkbox" id="menu-bar">
+                <label for="menu-bar"><img src="images/menuIcon.png" alt="menuIcon" id="menuIcon"></label>
+                          <nav class="menu">
+                            <ul>
+                              <li><button class="btnHappy">Happy</button></li>
+                              <li><button class="btnAngry">Angry</button></li>
+                              <li><button class="btnSad">Sad</button></li>
+                              <li><button class="btnInLove">Inlove</button></li>
+                              <li><button class="btnSmiling">Smiling</button></li>
+                              <li><button class="btnBrave">Brave</button></li>
+                              <li><button class="btnExplorer">Explorer</button></li>
+                              <li><button class="btnChildish">Childish</button></li>
+                            </ul>
+                          </nav>                
          </header>   
-                <div class="row">
-                    <div class="border col">Happy</div>
-                    <div class="border col">Angry</div>
-                    <div class="border col">Sad</div>
-                    <div class="border col">Inlove</div>
-                    <div class="border col">Smiling</div>
-                    <div class="border col">Brave</div>
-                    <div class="border col">Explorer</div>
-                    <div class="border col">Childish</div>
+  <main>
+   <div class="container">
+    <button class="btn-romantic" id="btn-romantic">Romantic</button>    
+    <button class="btn" id="btn-next" hidden>next</button>    
+    <div id="content">
 
-                </div>
-                <div class="row">
+    </div>
+ </main>
+       
 
-                </div>
-
-
-
-            </div>
            
 
 
-            <script src="data.js"></script>
-            <script src="main.js"></script>
+        
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="cardMovieTemplate.js"></script>
+    <script type="text/javascript" src="main.js"></script> 
 
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>
 
 
 
 
-<input type="checkbox" id="menu-bar">
-                    <label for="menu-bar"> <img src="images/menuIcon.png" alt="menuIcon" id="menuIcon"> </label>
-                    <nav class="menu">
-
-
-                    
-                </nav>
