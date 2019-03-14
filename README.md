@@ -1,4 +1,5 @@
-# "Hackathon" de final de _Common Core_, películas
+# "Hackathon" de final de _Common Core_, películas 
+# "Soñadoras team"
 
 ## Índice
 
@@ -6,6 +7,8 @@
 - [Definición del producto](#definición-del-producto)
 - [Definición del usuario](#definición-del-usuario)
 - [Historias de usuario](#historias-de-usuario)
+- [Prototipo de baja fidelidad](#prototipo-de-baja-fidelidad)
+- [Prototipo de alta fidelidad](#prototipo-de-alta-fidelidad)
 
 ---
 
@@ -23,7 +26,7 @@ y modificado el mercado de las películas a nivel global.
 
 ¡Una película para cada estado de ánimo!
 
-Somos una Web App de recomendación de películas. En Moodvie nos encargamos de que tu elección de película sea fácil y rápida, para eso te sugerimos las películas con base a tu estado de ánimo.
+Somos una Web App de recomendación de películas. En E-movie finder nos encargamos de que tu elección de película sea fácil y rápida, para eso te sugerimos las películas con base a tu estado de ánimo.
 
 ## Definición del usuario 
 
@@ -57,12 +60,30 @@ La interfaz en óptimas condiciones debe ofrecer la acción de ordenar las pelí
 - **Joanna** investigar la funcionalidad del bootstrap.
 - **Rocio** darle el estilo al menú desplegable.
 
+## Testeo
+
+|Persona|Feliz|Enojadx|Triste|Enamoradx|
+|-|-|-|-|-|
+|1| Comedia| Animada| Comedia| Extranjeras|
+|2| Comedia| Suspenso| Romantica| Romanticas|
+|3| Comedia| Acción| Dramas| Romanticas|
+|4| Comedia| Acción| Drama| Romanticas|
+|5| Comedia| Comedia | Drama | Romanticas|
+|6| Animada | Acción | Drama | Romance |
+|7| Animada | Suspenso | Drama | Cine de arte|
+|8| Comedia | Comedia | Drama | Arte|
+|9| Terror | Thriller |Animada | Romance |
 
 ## Prototipo de baja fidelidad
 
-Version móvile
+Version móvil
 ![Prototipo movil](https://drive.google.com/uc?export=view&id=17oVrfagjMd8UqU2lgCURQVx3f5qBHQOC)
 
 Verision escritorio 
 ![Prototipo escritorio](https://drive.google.com/uc?export=view&id=1L3MRLsK1HHVWmw3mHVxb6tBLRexeUSxj)
 
+
+## Prototipo de alta fidelidad
+
+Versión móvil 
+https://www.figma.com/proto/D4NFrqSiEc1tG7TqKj9o4ggH/PROTOTIPO-1-MOBILE?node-id=16%3A0&scaling=min-zoom 
