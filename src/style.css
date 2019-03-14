@@ -35,19 +35,22 @@ header label:hover {
 .menu li:hover{
     background: rgba(0,0,0, 0.26);
 }
-.menu li a{
+.menu li button{
     display: block;
     padding: 15px 20px;
     color: #B90CBC;
     text-decoration: none;
+    background: none;
+    border: none;
 }
+
 @media (max-width:768px) {
     header label{
        display: block;
     }
     .menu {
         position: absolute;
-        background: rgba(196, 196, 196, 0.26);
+        background: rgba(24, 23, 23);
         width: 70%;
         margin-left: -70%;
         transition: all 0.5s;
