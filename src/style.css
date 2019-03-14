@@ -1,49 +1,73 @@
+#menuIcon {
+    width: 30px;
+    height: 30px;
+}
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: black;
 }
-
 header {
     width: 100%;
-    text-align: center;
-    height: 50px;
+    background: rgba(196, 196, 196, 0.26);
 }
 #menu-bar {
     display: none;
 }
-header label {
-    display: block;
+header label{
+    display: none;
     width: 30px;
     height: 30px;
     padding: 10px;
 }
 header label:hover {
     cursor: pointer;
-    background: rgba(0,0,0,0.3);
-}
-#menuIcon {
-    width: 30px;
-    height: 30px;
+    background: rgba(0,0,0, 0.26)
 }
 .menu ul {
     margin: 0;
     list-style: none;
     padding: 0;
     display: flex;
+    justify-content: flex-start;
 }
-.menu li {
+
+.menu li:hover{
+    background: rgba(0,0,0, 0.26);
+}
+.menu li a{
     display: block;
-    padding: 15px 20ox;
-    color: #ffffff;
+    padding: 15px 20px;
+    color: #B90CBC;
     text-decoration: none;
 }
+@media (max-width:768px) {
+    header label{
+       display: block;
+    }
+    .menu {
+        position: absolute;
+        background: rgba(196, 196, 196, 0.26);
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    #menu-bar:checked ~ .menu {
+        margin: 0;
+    }
+}
 
-.border {
-border: 1px;
-color: #000 solid;
-text-align: center;
-height: 50px;
-display: inline-block;
-width: 165px;
-
+.container img {
+    background: none;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container img {
+    width: 150px;
+    height: 170px;
+    margin: 30px;
 }
