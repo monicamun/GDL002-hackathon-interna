@@ -7,6 +7,7 @@
     <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
     <title>E-movies</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="grid.css" /> -->
 
   </head>
     <header class="headerImg">
@@ -24,14 +25,14 @@
                           <nav class="menu">
                             <ul>
 
-                              <li><button class="btnHappy">Happy <img src="emojis/EmojiHappy.png" alt="Happy"> </button></li>
-                              <li><button class="btnAngry">Angry <img src="emojis/EmojiAngry.png" alt="Angry"></button></li>
-                              <li><button class="btnSad">Sad <img src="emojis/EmojiSad.png" alt="Sad"></button></li>
-                              <li><button class="btn-romantic" id="btn-romantic">Inlove <img src="emojis/EmojiInlove.png" alt="Inlove"></button></li>
-                              <li><button class="btnSmiling">Smiling <img src="emojis/EmojiLOL.png" alt="LOL"></button></li>
-                              <li><button class="btnBrave">Brave <img src="emojis/EmojiBrave.png" alt="Brave"></button></li>
-                              <li><button class="btnExplorer">Explorer <img src="emojis/EmojiExplored.png" alt="EmojiExplored"></button></li>
-                              <li><button class="btnChildish">Childish <img src="emojis/EmojiChildsing.png" alt="Childish"></button></li>
+                              <li><button id="Happy" class="btnHappy">Happy <img src="emojis/EmojiHappy.png" alt="Happy"> </button></li>
+                              <li><button id="Angry" class="btnAngry">Angry <img src="emojis/EmojiAngry.png" alt="Angry"></button></li>
+                              <li><button id="Sad" class="btnSad">Sad <img src="emojis/EmojiSad.png" alt="Sad"></button></li>
+                              <li><button id="Inlove" class="btn-romantic" id=>In love <img src="emojis/EmojiInlove.png" alt="Inlove"></button></li>
+                              <!-- <li><button id="Funny" class="btnSmiling">Funny <img src="emojis/EmojiLOL.png" alt="LOL"></button></li> -->
+                              <li><button id="Brave" class="btnBrave">Brave <img src="emojis/EmojiBrave.png" alt="Brave"></button></li>
+                              <li><button id="Curious" class="btnExplorer">Curious <img src="emojis/EmojiExplored.png" alt="EmojiExplored"></button></li>
+                              <li><button id="Childish" class="btnChildish">Childish <img src="emojis/EmojiChildsing.png" alt="Childish"></button></li>
 
                             </ul>
                           </nav>                
@@ -40,11 +41,23 @@
 
       </div>
 
-   <div class="container">
+   <div class="container row">
 
     <!-- <button class="btn-romantic" id="btn-romantic">Romantic</button>     -->
-
-    <button class="btn" id="btn-next" hidden>next</button>    
+    <select id="filter-year" hidden>
+      <option value="" selected>All</option>
+      <option value="2019">2019</option>
+      <option value="2018">2018</option>
+      <option value="2017">2017</option>
+      <option value="2016">2016</option>
+      <option value="2015">2015</option>
+      <option value="2000">2000</option>
+      <option value="1990">1990</option>
+      <option value="1980">1980</option>
+    </select>
+    <button class="btn" id="btn-prev" hidden>Prev</button>  
+    <button class="btn" id="btn-next" hidden>Next</button>
+        
     <div id="content">
 
     </div>
@@ -57,6 +70,7 @@
 
         
     <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="genre.js"></script> 
     <script type="text/javascript" src="cardMovieTemplate.js"></script>
     <script type="text/javascript" src="main.js"></script> 
 

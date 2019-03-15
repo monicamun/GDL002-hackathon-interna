@@ -1,5 +1,6 @@
 // lista de generos
-var genres = [
+let genre = {};
+genre.genreList = [
   {
     id: 28,
     name: "Action"
@@ -77,3 +78,9 @@ var genres = [
     name: "Western"
   }
 ];
+genre.getGenreNames = function (idArray) {
+  let genreNames = idArray.map(id => 
+    genre.genreList.find(g => g.id === id).name
+  );
+  return genreNames;
+};
