@@ -65,3 +65,18 @@ function showGenreMovies(genre, page) {
     btnNext.hidden = false;
   });
 }
+
+const showSliderMovies = (id) =>{
+window.data.getSliderMovies(id).then(function(){
+let sliderMovies = movieData.arraySlider
+.map(s => showSliderMovies(s))
+.join("");
+let sliderShow = document.getElementById("slider");
+sliderShow.innerHTML = sliderMovies;
+});
+};
+
+const getSliderMovies = () =>{
+  const arraySlider = [tt4477536,tt6494418,tt0118751,tt5292624,tt8451018];
+  return arraySlider;
+ }
