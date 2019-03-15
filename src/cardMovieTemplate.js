@@ -11,11 +11,13 @@ window.cardMovieTemplate = movie => {
     `;
 };
 
-window.showSliderMovies = slider => {
+window.showSliderMoviesTemplate = (slider) =>{
   return `
-  <div><img src="https://www.omdbapi.com/?apikey=e36c9912&i=${slider.Poster}"></div>
-  <h5 class="title">${slider.Title}</h5>
-`;
-};
-
-
+  <div class = "slider"  id="${slider.imdbID}">
+    <ul>
+        <img src="${slider.Poster}">
+        <h5 class="title">${slider.Title}</h5> 
+    </ul>
+  </div>
+  `;
+}
