@@ -1,4 +1,5 @@
 window.data = {
+
   getGenreMovies: function(genre, page, year) {
     if(!page || page < 1) {
       page = 1
@@ -15,16 +16,15 @@ window.data = {
       return data;
     });
 
-    return promise;
-  },
-   getSliderMovies: function(id){
-   let promise = fetch( 
-    `https://www.omdbapi.com/?apikey=e36c9912&i=' + ${id}`
-   ).then(function(response) {
-     let data = response.json ();
-     return data;
-    });
-    return promise;
-  }
-   };
-   
+
+    getSliderMovies: function(id){
+      let promise = fetch(
+      `https://www.omdbapi.com/?apikey=e36c9912&i=${id}`
+      ).then(function(response){
+        let data = response.json();
+        return data;
+      });
+      return promise;
+    }
+  };
+  
