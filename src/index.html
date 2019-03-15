@@ -13,47 +13,49 @@
 
         <!-- add the menu bar -->
         <header>
+            <div>
+                <img src="images/bannercielo.jpg"  alt="banner" class="headerImg">
+              
+            </div>
+            
+        </header>  
                 <input type="checkbox" id="menu-bar">
                 <label for="menu-bar"><img src="images/menuIcon.png" alt="menuIcon" id="menuIcon"></label>
                           <nav class="menu">
                             <ul>
-                              <li><button class="btnHappy">Happy</button></li>
-                              <li><button class="btnAngry">Angry</button></li>
-                              <li><button class="btnSad">Sad</button></li>
-                              <li><button class="btnInLove">Inlove</button></li>
-                              <li><button class="btnSmiling">Smiling</button></li>
-                              <li><button class="btnBrave">Brave</button></li>
-                              <li><button class="btnExplorer">Explorer</button></li>
-                              <li><button class="btnChildish">Childish</button></li>
+                              <li><button class="btnHappy">Happy <img src="emojis/EmojiHappy.png" alt="Happy"> </button></li>
+                              <li><button class="btnAngry">Angry <img src="emojis/EmojiAngry.png" alt="Angry"></button></li>
+                              <li><button class="btnSad">Sad <img src="emojis/EmojiSad.png" alt="Sad"></button></li>
+                              <li><button class="btn-romantic" id="btn-romantic">Inlove <img src="emojis/EmojiInlove.png" alt="Inlove"></button></li>
+                              <li><button class="btnSmiling">Smiling <img src="emojis/EmojiLOL.png" alt="LOL"></button></li>
+                              <li><button class="btnBrave">Brave <img src="emojis/EmojiBrave.png" alt="Brave"></button></li>
+                              <li><button class="btnExplorer">Explorer <img src="emojis/EmojiExplored.png" alt="EmojiExplored"></button></li>
+                              <li><button class="btnChildish">Childish <img src="emojis/EmojiChildsing.png" alt="Childish"></button></li>
                             </ul>
                           </nav>                
-         </header>   
-         <main>
-           <div class="container">
-             <img src="imagesMovies/1.PNG" alt="1">
-             <img src="imagesMovies/2.PNG" alt="1">
-             <img src="imagesMovies/3.PNG" alt="1">
-             <img src="imagesMovies/4.PNG" alt="1">
-             <img src="imagesMovies/5.PNG" alt="1">
-             <img src="imagesMovies/6.PNG" alt="1">
-             <img src="imagesMovies/7.PNG" alt="1">
-             <img src="imagesMovies/8.PNG" alt="1">
-             <img src="imagesMovies/9.PNG" alt="1">
-             <img src="imagesMovies/10.PNG" alt="1">
-             <img src="imagesMovies/11.PNG" alt="1">
-             <img src="imagesMovies/12.PNG" alt="1">
-             <img src="imagesMovies/13.PNG" alt="1">
-             <img src="imagesMovies/14.PNG" alt="1">
-             <img src="imagesMovies/15.PNG" alt="1">
-           </div>
-         </main>
-       
+            
+  <main>
+      <div id="slider">
+
+      </div>
+
+   <div class="container">
+    <!-- <button class="btn-romantic" id="btn-romantic">Romantic</button>     -->
+    <button class="btn" id="btn-next" hidden>next</button>    
+    <div id="content">
+
+    </div>
+
+ </main>
+      
 
            
 
 
-            <script src="data.js"></script>
-            <script src="main.js"></script>
+        
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="cardMovieTemplate.js"></script>
+    <script type="text/javascript" src="main.js"></script> 
 
 
   </body>
