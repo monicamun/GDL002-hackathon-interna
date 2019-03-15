@@ -14,7 +14,7 @@ window.data = {
 
     getSliderMovies: function(id){
       let promise = fetch(
-      `http://www.omdbapi.com/?apikey=e36c9912&i=${id}`
+      `https://www.omdbapi.com/?apikey=e36c9912&i=${id}`
       ).then(function(response){
         let data = response.json();
         return data;
